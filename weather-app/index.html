@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/cloudy.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input id="city" type="text" placeholder="Enter the city" />
+        <button onclick="fetchWeather()" id="search-btn">
+          <img src="images/search.png" />
+        </button>
+      </div>
+      <div class="weather">
+        <img class="weather-icon" src="images/rain.png" />
+        <h1 class="temp">21°c</h1>
+        <h2 class="city">Nalanda</h2>
+      </div>
+      <div id="error-message"></div>
+      <div class="details">
+        <div class="col">
+          <img src="images/humidity.png" />
+          <div>
+            <p class="humidity">60%</p>
+            <p>humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/wind.png" />
+          <div>
+            <p class="wind">150kmph</p>
+            <p>wind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
