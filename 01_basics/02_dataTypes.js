@@ -1,4 +1,8 @@
-"use strict"; // treat all JS code as newer version
+"use strict"; 
+// treat all JS code as newer version
+//it also avoid hoisting
+//it also led to get less error in the code bcoz we cannot acces without initialization
+
 
 // alert( 3 + 3) // we are using nodejs, not browser
 

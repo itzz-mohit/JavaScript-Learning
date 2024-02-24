@@ -3,15 +3,17 @@ const score = 400
 
 const balance = new Number(100)
 // console.log(balance);
+//console.log(typeof balance)
 
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+// console.log(balance.toFixed(2));  // used to give nuumber of digit after decimal places
+// console.log(typeof balance) //still the type will be object
 
 const otherNumber = 123.8966
 
-// console.log(otherNumber.toPrecision(4));
+console.log(otherNumber.toPrecision(4));
 
-const hundreds = 1000000
+// const hundreds = 1000000
 // console.log(hundreds.toLocaleString('en-IN'));
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
@@ -24,11 +26,12 @@ const hundreds = 1000000
 // console.log(Math.min(4, 3, 6, 8));
 // console.log(Math.max(4, 3, 6, 8));
 
-console.log(Math.random());
-console.log((Math.random()*10) + 1);
-console.log(Math.floor(Math.random()*10) + 1);
+// console.log(Math.random());
+// console.log((Math.random()*10) + 1);
+// console.log((Math.random()*10) );
+// console.log(Math.floor(Math.random()*10) + 1);
 
-const min = 10
-const max = 20
+// const min = 10
+// const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min)

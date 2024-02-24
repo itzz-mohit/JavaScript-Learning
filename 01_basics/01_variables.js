@@ -9,9 +9,12 @@ let accountState;
 
 accountEmail = "mk@.com"
 accountPassword = "21212121"
-accountCity = "Nalanda"
+accountCity = "Nalanda" //this will act as string
+accountCity = 2 //this will act as number
+// let accountCity  and if we assign it here it will give reference error
+console.log(typeof accountCity)
 
-console.log(accountId);
+// console.log(accountId);
 
 /*
 Prefer not to use var
